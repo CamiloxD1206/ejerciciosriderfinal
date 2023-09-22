@@ -1,4 +1,5 @@
- //-----------------------------Html------------------------
+//  //-----------------------------Html------------------------
+//  callback
 //constantes------------------------
 const div=document.querySelector('.contenedor-inputs');
  const input1=document.createElement('div');
