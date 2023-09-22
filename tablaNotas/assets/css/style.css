@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.contenedor{
+   background-color: white;
+   text-align: center;
+   padding: 20px;
+   right: 50%;
+   top: 50%;
+
+}
+
+table{
+    margin: 0 auto;
+    width: 50%;
+    
+}
+
+table td{
+    height: 30px;
+    padding: 10px;
+
+}
+table td button{
+    
+    padding: 5px;
+    margin: 3px;
+    
+    
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 20px;
+
+}
+table td button:hover{
+    color: black
+    
+}
+
+
+
+.input{
+    width: 100%;
+   
+    text-align: center;
+}
+
+
+
+.formulario input{
+    margin: 10px;
+    display: flex;
+}
+
+
+/* modal */
+
+.modal{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: absolute;
+    
+    top: 50%;border: 1px solid black;
+    border-radius: 10px;
+    top: 5px;
+    right: 5px;
+    padding: 50px;
+    
+    text-align: center;
+    
+}
+
+.btn{
+    position: absolute;
+    top: 20%;
+    left: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+}
+
+.modal input{
+    margin: 10px;
+    display: block;
+    height: 20px;
+    width: 100%;
+    
+    
+}
+
+.display{
+    display: none;
+}
+

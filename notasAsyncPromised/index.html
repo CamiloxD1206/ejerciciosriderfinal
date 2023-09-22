@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Tabla de notas</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;margin-top: 20px;">PROMESAS Y ASYNC-AWAIT</h1>
+    </header>
+    <div class="contenedor">
+
+
+        <table border="1" class="tabla visibilidad1" id="tabla">
+            <tr> 
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <th>Nota 3</th>
+                <th>Final</th>
+                <th>Botones</th>
+            </tr>
+        </table>
+        <input type="btn" id="btn-modal" class="boton"  value="Registrar Estudiante" >
+
+        <div  class="modal display" id="modal">
+        
+            <div class="nombre">
+                <label for="id">Nombre</label>
+                <input type="text" id="nombre" class="input-modal" >
+            </div>
+    
+     <div class="id">
+                <label for="id">Id</label>
+                <input type="number" id="idd" class="input-modal">
+            </div>
+    
+            <div class="nota1">
+                <label for="id">Nota 1</label>
+                <input type="number" id="nota1"class="input-modal">
+            </div>
+    
+            <div class="nota2">
+                <label for="id">Nota 2</label>
+                <input type="number" id="nota2"  class="input-modal">
+            </div>
+    
+            <div class="nota3">
+                <label for="id">Nota 3</label>
+                <input type="number" id="nota3"  class="input-modal">
+            </div>
+            <br><br><br>
+    
+            <input type="button" class="calcular" value="Añadir" onclick="document.getElementById(input (idd.value,nombre.value,parseFloat(nota1.value),parseFloat(nota2.value),parseFloat(nota3.value)))" >
+            <br><br>   
+        </div>
+     
+    </div>
+    
+   
+    <script src="./assets/js/app.js"></script>
+    <!-- <script src="./assets/js/async.js"></script> -->
+
+    
+</body>
+</html>

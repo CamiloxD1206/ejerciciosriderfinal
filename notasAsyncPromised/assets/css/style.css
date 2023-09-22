@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.contenedor{
+   background-color: white;
+   text-align: center;
+   padding: 20px;
+   right: 50%;
+   top: 50%;
+
+}
+.tabla{
+    border-radius: 5px;
+    background-color: rgb(235, 195, 255);
+
+    
+}
+.visibilidad1{
+    opacity:0;
+
+}
+
+table{
+    margin: 0 auto;
+    width: 50%;
+    
+}
+
+table td{
+    height: 30px;
+    padding: 10px;
+
+}
+table td button{
+    
+    padding: 5px;
+    margin: 3px;
+    
+    
+    border: none;
+    color: white;
+    background-color: rgb(43, 171, 226);
+    border-radius: 20px;
+
+}
+table td button:hover{
+    color: black
+    
+}
+
+
+
+.input{
+    width: 100%;
+   text-align: center;
+   border-radius: 10px;
+}
+
+
+
+.formulario input{
+    margin: 10px;
+    display: flex;
+}
+
+
+/* modal */
+
+.modal{
+    margin-top:30px;
+margin-left:36%;
+width: 300px;
+border-color: black;
+border:  solid 2px;
+padding: 3%;
+border-radius: 10px;
+background-color:  rgb(43, 171, 226);
+    
+}
+.boton{
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background-color:  rgb(43, 119, 226);
+    color: white;
+    border: 0;
+    padding:5px;
+
+}
+
+.modal input{
+    margin: 10px;
+    display: block;
+    height: 20px;
+    width: 100%;
+    
+    
+}
+
+.display{
+    display: none;
+}
+
+#acciones{
+    display: flex;
+
+}
+.calcular{
+    border-radius: 5px;
+    background-color:  rgb(43, 137, 226);
+    border: 0;
+    color: white;
+    
+
+}
+.input-modal{
+
+    border-radius: 5px;
+}

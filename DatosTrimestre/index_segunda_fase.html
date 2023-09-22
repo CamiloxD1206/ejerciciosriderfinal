@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camilo Tacue Salazar</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main class="cuerpo">
+        <h3>ingresa tu nombre</h3>
+        <input type="text" id="nombre">
+    <div class="container_año">
+        <h3>Fecha</h3>
+<input type="date" id="fecha"></div>
+    <div class="container_trimestre">
+        <h3>Trimestre</h3>
+    <input type="select" id="trimestre">
+        </div>
+        <div class="container_competencia">
+            <h3>competencia</h3>
+        <select name="competencias" id="competencia">
+            <option id="opcion" selected disabled >Selecciona una opcion</option>
+            <option id="opcion"  >Analisis</option>
+            <option id="diseño" >Diseño</option>
+        </select>
+      
+            </div>
+            <div id="area">
+
+            </div>
+
+
+        <div class="opciones">
+        <input type="radio" name="ganador" value="aprobo" id="radio"> Gana
+        <br>
+        <input type="radio" name="ganador" value="perdio" id="radio">pierde
+    </div>
+    <div class="botom">
+        <input type="button" value="Datos" onclick="document.getElementById(dracula(nombre.value,fecha.value,trimestre.value,competencia.value, (check=document.querySelector('input[name=ganador]:checked')).value))"id="boton">
+    </div>
+    
+    <div>
+        <p id="texto">
+
+        </p>
+
+    </div>
+</main>
+<footer class="pie">
+
+</footer>
+    <script src="/js/main.js"></script>
+</body>
+</html>
